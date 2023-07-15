@@ -4,7 +4,7 @@ class Postsection extends Component{
     render(){
         return <div className="post-topbar">
         <div className="user-picy">
-          <img src="./images/saroj-pic.jpeg" alt="" />
+          <img src="./images/sujal.jpg" alt="" />
         </div>
         <div className="post-st">
           <ul>

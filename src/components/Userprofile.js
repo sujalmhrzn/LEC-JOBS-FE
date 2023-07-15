@@ -8,22 +8,22 @@ return <div className="col-lg-3 col-md-4 pd-left-none no-pd">
     <div className="user-profile">
       <div className="username-dt">
         <div className="usr-pic">
-          <img src="./images/saroj-pic.jpeg" alt="" />
+          <img src="./images/sujal.jpg" alt="" />
         </div>
       </div>
       <div className="user-specs">
-        <h3>Saroj Shakya</h3>
+        <h3>Sujal Maharjan</h3>
         <span>Research Head</span>
       </div>
     </div>
     <ul className="user-fw-status">
       <li>
         <h4>Following</h4>
-        <span>34</span>
+        <span>16</span>
       </li>
       <li>
         <h4>Followers</h4>
-        <span>155</span>
+        <span>20000</span>
       </li>
       <li>
         <a href="./my-profile.html" title="">View Profile</a>
@@ -39,7 +39,7 @@ return <div className="col-lg-3 col-md-4 pd-left-none no-pd">
       <div className="suggestion-usd">
         <img src="./images/s1.png" alt="" />
         <div className="sgt-text">
-          <h4>Jessica William</h4>
+          <h4>sabina maharjan</h4>
           <span>Graphic Designer</span>
         </div>
         <span><i className="la la-plus"></i></span>

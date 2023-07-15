@@ -698,9 +698,9 @@ class Home extends Component {
                         <div className="post-bar">
                           <div className="post_topbar">
                             <div className="usy-dt">
-                              <img src="./images/saroj-pic.jpeg" alt="" />
+                              <img src="./images/sujal.jpg" alt="" />
                               <div className="usy-name">
-                                <h3>Saroj Shakya</h3>
+                                <h3>sujal maharjan</h3>
                                 <span>3 min ago</span>
                               </div>
                             </div>
@@ -806,11 +806,11 @@ class Home extends Component {
                             <div className="post_topbar">
                               <div className="usy-dt">
                                 <img
-                                  src="./images/saroj-pic.jpeg"
+                                  src="./images/sujal.jpg"
                                   alt=""
                                 />
                                 <div className="usy-name">
-                                  <h3>Saroj Shakya</h3>
+                                  <h3>sujal maharjan</h3>
                                   <span>3 min ago</span>
                                 </div>
                               </div>
