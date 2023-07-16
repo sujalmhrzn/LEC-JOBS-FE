@@ -2,6 +2,7 @@ import { Component } from "react";
 
 class Header extends Component{
     render(){
+      const { user }= this.props;
         return <header>
         <div className="container">
           <div className="header-data">
@@ -165,7 +166,7 @@ class Header extends Component{
             </div>
             <div className="user-account">
               <div className="user-info">
-                <img src="./images/sujal.jpg" alt="" />
+                <img src={"./images/"+ user.username + ".jpg"}alt="" />
                 <a href="./index.html#" title="">Sujal</a>
                 <i className="la la-sort-down"></i>
               </div>

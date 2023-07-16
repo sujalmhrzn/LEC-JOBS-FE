@@ -3,17 +3,18 @@ import { Component } from "react";
 class Postbar extends Component{
     render()
     {
-        return<div className="post-bar">
-        <div className="post_topbar">
-          <div className="usy-dt">
-            <img src="./images/sujal.jpg" alt="" />
-            <div className="usy-name">
+        return <div className="posts-section">
+                      {[1,2,3].map((a,b)=> <div key = {b} className="post-bar">
+                     <div className="post_topbar">
+                     <div className="usy-dt">
+                     <img src="./images/sujal.jpg" alt="" />
+                     <div className="usy-name">
               <h3>Sujal Maharjan</h3>
               <span>3 min ago</span>
-            </div>
-          </div>
-          <div className="ed-opts">
-            <a
+                     </div>
+                       </div>
+                      <div className="ed-opts">
+                    <a
               href="./index.html#"
               title=""
               className="ed-opts-open"
@@ -108,7 +109,10 @@ class Postbar extends Component{
             ><i className="fas fa-eye"></i>Views 50</a
           >
         </div>
-      </div>
+                       </div>)}
+
+                       
+                      </div>
     }
 }
 export default Postbar;
